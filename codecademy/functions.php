@@ -167,3 +167,58 @@
 	?>
 	</p>
 </html>
+
+// Functions 2
+<html>
+    <head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+          // Here we define the function...
+          function helloWorld() {
+            echo "Hello world!";
+          }
+          
+          // ...and here we call it!
+          helloWorld();
+        ?>
+      </p>
+    </body>
+</html>
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+        // Write your function below!
+        function displayName() {
+          echo 'Chris';
+        }
+
+        displayName();
+        ?>
+      </p>
+    </body>
+</html>
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+      <p>
+        <?php
+          function greetings($name) {
+            echo "Greetings, $name!";
+          } 
+
+          greetings("Chris");
+        ?>
+      </p>
+    </body>
+</html>
