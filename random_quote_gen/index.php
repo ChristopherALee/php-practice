@@ -10,7 +10,9 @@
     ]
     ];
 
-  $quote = $quotes[rand(0, count($quotes) - 1)];
+  // $quote = $quotes[rand(0, count($quotes) - 1)];
+  // alternatively
+  $quote = $quotes[arrayRand($quotes)];
   $quoteText = $quote['text'];
   $quoteAuthor = $quote['author'];
 ?>
