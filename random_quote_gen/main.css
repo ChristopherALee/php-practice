@@ -1,0 +1,14 @@
+blockquote {
+  display: flex;
+  justify-content: center;
+}
+
+#quote-container {
+}
+
+#author {
+  font-style: italic;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-end;
+}
