@@ -2,11 +2,24 @@
   $quotes = [
     [
       'author' => 'Gamby',
-      'text' => 'Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof '
+      'text' => 'Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof Woof'
     ],
     [
       'author' => 'Kora',
-      'text'=> 'Ruff Ruff Ruff Ruff Ruff Ruff Ruff '
+      'text'=> 'Ruff Ruff Ruff Ruff Ruff Ruff Ruff'
+    ]
+    ,
+    [
+      'author' => 'Rocky',
+      'text'=> 'Hallo!'
+    ],
+    [
+      'author' => 'Tiger',
+      'text' => 'Boop boop'
+    ],
+    [
+      'author' => 'Nacho',
+      'text' => 'Rawrrrrr'
     ]
     ];
 
